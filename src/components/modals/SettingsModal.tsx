@@ -19,12 +19,8 @@ type Props = {
 export const SettingsModal = ({
   isOpen,
   handleClose,
-  isHardMode,
-  handleHardMode,
   isDarkMode,
   handleDarkMode,
-  isHighContrastMode,
-  handleHighContrastMode,
 }: Props) => {
   return (
     <BaseModal title="Settings" isOpen={isOpen} handleClose={handleClose}>
